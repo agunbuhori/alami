@@ -32,6 +32,11 @@ const Progress: React.FC<Props> = ({
     animationProgress.start();
   };
 
+  const getPercentage = () => {
+    const progress = value > maxValue ? maxValue : value;
+    return (progress / maxValue) * 100;
+  };
+
   return (
     <Pressable
       style={styles.progressBackground}
@@ -42,7 +47,7 @@ const Progress: React.FC<Props> = ({
           ...styles.progress,
           width: animatedProgress.interpolate({
             inputRange: [0, 1],
-            outputRange: ['0%', `${(value / maxValue) * 100}%`],
+            outputRange: ['0%', `${getPercentage()}%`],
           }),
         }}
       />
