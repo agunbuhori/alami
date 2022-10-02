@@ -43,7 +43,7 @@ cd alami
 
 npm install
 
-# or using yarn instead of npm
+# or using yarn instead
 
 yarn install
 ```
@@ -56,7 +56,10 @@ Make sure your device has installed Xcode with emulator and then run this comman
 npx pod-install
 # or
 cd ios && pod install && cd ..
-# then
+npm run ios
+```
+or using yarn 
+```bash
 yarn ios
 ```
 
@@ -64,6 +67,10 @@ yarn ios
 
 Make sure your device has installed Android Studio with emulator as well and then just run this command:
 
+```bash
+npm run android
+```
+or using yarn 
 ```bash
 yarn android
 ```
