@@ -5,7 +5,7 @@ import Progress from '../components/Progress';
 const ProgressScreen = () => {
   return (
     <View style={styles.container}>
-      <Progress duration={5000} value={75} maxValue={100} />
+      <Progress duration={5000} value={100} maxValue={100} />
       <Text style={styles.description}>Hold on the progress to pause.</Text>
     </View>
   );
