@@ -1,0 +1,20 @@
+[
+    {
+        "name": "iPhone 14 Pro",
+        "price": 2000
+    },
+    
+    {
+        "name": "Samsung S22",
+        "price": 2000
+    },
+    {
+        "name": "Xiaomi BlackShark",
+        "price": 4200
+    },
+    {
+        "name": "Asus ROG",
+        "price": 3000
+    },
+
+]
